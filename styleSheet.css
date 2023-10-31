@@ -1,0 +1,73 @@
+body {
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("bgi.jpg");
+  background-color: rgba(201, 226, 111, 0.75);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: rgba(84, 187, 222, 0.5);
+  width: auto;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.header {
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+  color: black;
+  border: whitesmoke;
+  text-align: center;
+}
+#text {
+  font-size: 18px;
+}
+#allFlightreq,
+#searchBtn {
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  padding: 12px 28px;
+  font-size: 14px;
+}
+
+#allFlightreq:hover {
+  background-color: #ebba60;
+  border: 2px;
+  color: black;
+}
+#searchBtn:hover {
+  background-color: #ebba60;
+  border: 2px;
+  color: black;
+}
+#optionFlight,
+#inputFlightDate,
+#flightCodeDestination,
+#inputCity,
+#flightCodeOrigin {
+  padding: 12px 28px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+#data {
+  font-size: 14px;
+  line-height: 2;
+  background-color: rgba(180, 204, 212, 0.7);
+  width: 20%;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.container1 {
+  font-size: 14px;
+  line-height: 2;
+  background-color: rgba(180, 204, 212, 0.7);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}

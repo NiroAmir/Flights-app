@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheet.css">
+    <title>Flights website</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>&#9992; Flights &#9992;</h1>
+        </div>
+        <!-- <div id="img">
+            <img src=view.jpg alt="view" id="view">
+        </div> -->
+        <div id="allData">
+            <div id="divSearchAirPortInTheCity">
+                <input type="text" placeholder="Input City" id="inputCity">
+                <button id="searchBtn"> Search airport</button>
+            </div>
+            <div id="data" d-none></div>
+            <h4 id="text">Flight Code Origin</h4>
+            <input type="text" id="flightCodeOrigin" placeholder="Departure flight">
+            <!-- <p id="demo"></p> -->'
+
+            <div>
+                <h4 id="text">Destination flight code</h4>
+                <input type="text" id="flightCodeDestination" placeholder="Destination flight">
+            </div>
+
+            <br>
+            <br>
+            <label for="flight" id="text">Choose flight:</label>
+            <select name="flight" id="optionFlight">
+                <option value="roundTrip">Round trip</option>
+                <option value="oneWay">One way</option>
+            </select>
+            <br>
+            <br>
+            <label for="flightDate" id="text">Flight Date</label>
+            <input type="date" id="inputFlightDate">
+            <br>
+            <br>
+            <button id="allFlightReq">all flight </button>
+            <div class="container1" id="displayDataFlight"></div>
+        </div>
+
+
+        <div class="footer"></div>
+    </div>
+    <script src="app.js"></script>
+    <!--     <script src="app1.js"></script> -->
+</body>
+
+</html>
